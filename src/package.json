@@ -1,0 +1,31 @@
+{
+  "fitbit": {
+    "appUUID": "b8edcd6d-6241-42d8-ae7a-8a38f6fc3262",
+    "appType": "clockface",
+    "appDisplayName": "Analog Picture Frame",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_user_profile",
+      "access_heart_rate",
+      "access_location"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Analog Picture Frame"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.0.0",
+    "@fitbit/sdk-cli": "^1.5.0"
+  },
+  "dependencies": {
+    "io-ts": "^1.4.1"
+  }
+}

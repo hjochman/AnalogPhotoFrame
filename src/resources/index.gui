@@ -1,0 +1,64 @@
+<svg viewport-fill="#111111">
+  <image id="background" href="images/background.png" visibility="visible" load="sync" />
+  <image id="zifferblatt" href="images/ZifferblattBW.png" fill="white" load="sync" />
+
+    <g id="sunSet" transform="translate(50%,50%)">
+    <rect x="$-4" y="-125" width="8" height="10"   fill="orange"/>     
+  </g>
+  
+  <g id="sunRise" transform="translate(50%,50%)">
+    <rect x="$-4" y="-125" width="8" height="10"   fill="red"/>     
+  </g>
+  
+  <g id="moon" transform="translate(50%,50%)">
+    <rect x="$-4" y="-125" width="8" height="10"   fill="white"/>     
+  </g>
+  
+  <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
+    <!-- <rect x="$-6" y="-75" width="12" height="75"   fill="#0000cd"/> -->
+    <line x1="0" y1="-95" x2="4" y2="0" fill="#606060" stroke-width="2" />
+    <line x1="0" y1="-95" x2="0" y2="0" fill="#606060" stroke-width="2" />
+    <line x1="0" y1="-95" x2="-4" y2="0" fill="#606060" stroke-width="2" />
+    <line x1="0" y1="-95" x2="6" y2="0" fill="#ffffff" stroke-width="2" />
+    <line x1="0" y1="-95" x2="-6" y2="0" fill="#0ffffff" stroke-width="1" />
+    <line x1="+6" y1="0" x2="-6" y2="0" fill="#0ffffff" stroke-width="1" />
+  </g>
+  <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
+    <!-- <rect x="$-4" y="-110" width="8" height="110" fill="#ffd700" /> -->
+    <line x1="0" y1="-110" x2="-3" y2="0" fill="#606060" stroke-width="1" />
+    <line x1="0" y1="-110" x2="-2" y2="0" fill="#606060" stroke-width="1" />
+    <line x1="0" y1="-110" x2="-1" y2="0" fill="#606060" stroke-width="1" />
+    <line x1="0" y1="-110" x2="1" y2="0" fill="#606060" stroke-width="1" />
+    <line x1="0" y1="-110" x2="2" y2="0" fill="#606060" stroke-width="1" />
+    <line x1="0" y1="-110" x2="3" y2="0" fill="#606060" stroke-width="1" />
+    <line x1="0" y1="-110" x2="4" y2="0" fill="#f0f0f0" stroke-width="1" />
+    <line x1="0" y1="-110" x2="-4" y2="0" fill="#f0f0f0" stroke-width="1" />
+    <line x1="4" y1="0" x2="-4" y2="0" fill="#f0f0f0" stroke-width="1" />
+  </g>
+  <g id="secs" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-2" y="-120" width="4" height="120" fill="red" />
+  </g>
+  
+  <text id="date" class="font"></text>
+  <text id="dayOfWeek" class="font"></text>
+ 
+  <image id="bat" href="images/bat.png" x="1" y="100%-24"  width="24" height="24" class="icon" load="sync"/>
+  <text id="battery" class="font"></text>
+  
+  <image id="iconStep" href="images/stat_steps_solid_24px.png" x="100%-24" y="-1"  width="24" height="24" class="icon" load="sync"/>
+  <text id="currentSteps" class="font"></text>
+ <!-- <text id="stepGoal" class="font"></text> -->
+  <image id="iconFloor" href="images/stat_floors_solid_24px.png" x="100%-24" y="24"  width="24" height="24" class="icon" load="sync"/>
+  <text id="level" class="font"></text>
+ 
+  <image id="heartEmpty" href="images/stat_hr_open_24px.png" x="100%-24" y="100%-22"  width="24" height="24" class="icon" load="sync"/>
+  <image id="heart" href="images/stat_hr_solid_24px.png" x="100%-24" y="100%-22"  visibility="hidden" width="24" height="24" class="icon" load="sync"/>
+  <text id="hrm" class="font"></text>
+  <image id="hr0" href="images/danger.png" x="100%-48" y="100%-74" visibility="hidden" width="48" height="48" load="sync"/>
+  <image id="hrs" href="images/lazy.png" x="100%-48" y="100%-74" visibility="hidden" width="48" height="48" load="sync"/>
+  <image id="hr1" href="images/out-of-zone.png" x="100%-48" y="100%-74" visibility="hidden" width="48" height="48" load="sync"/>
+  <image id="hr2" href="images/fat-burn-zone.png" x="100%-48" y="100%-74" visibility="hidden" width="48" height="48" load="sync"/>
+  <image id="hr3" href="images/cardio-zone.png" x="100%-48" y="100%-74" visibility="hidden" width="48" height="48" load="sync"/>
+  <image id="hr4" href="images/peak-zone.png" x="100%-48" y="100%-74" visibility="hidden" width="48" height="48" load="sync"/>
+  <rect id="myButton1" x="50" width="250" height="100%" fill="red" pointer-events="visible" opacity="0"/>
+</svg>

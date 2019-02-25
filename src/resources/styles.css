@@ -1,0 +1,68 @@
+.font {
+  font-family: System-Light;
+  text-length: 16;
+  fill: white;
+}
+
+.icon { 
+  fill: white;
+  opacity: 1; 
+}
+
+
+#date {
+  fill: white;
+  font-size: 23;
+  text-anchor: start;
+  x: 0;
+  y: 40;
+}
+
+#dayOfWeek {
+  fill: white;
+  font-size: 23;
+  text-anchor: start;
+  x: 0;
+  y: 16;
+}
+
+#battery {
+  fill: white;
+  font-size: 23;
+  text-anchor: start;
+  x: 25;
+  y: 100%-4;
+}
+
+#currentSteps {
+  fill: white;
+  font-size: 23;
+  text-anchor: end;
+  x: 100%-26;
+  y: 18;
+}
+
+
+#level {
+  fill: white;
+  font-size: 23;
+  text-anchor: end;
+  x: 100%-26;
+  y: 42;
+}
+
+#hrm {
+  fill: white;
+  font-size: 23;
+  text-anchor: end;
+  x: 100%-27;
+  y: 100%-3;
+}
+
+#hrLevel {
+  fill: white;
+  font-size: 23;
+  text-anchor: end;
+  x: 100%;
+  y: 100%-30;
+}
